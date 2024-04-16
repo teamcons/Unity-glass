@@ -1,9 +1,9 @@
 # Basic Makefile
 
-UUID = unitify@micxgx.gmail.com
+UUID = unitify@teamcons.github.com
 BASE_MODULES = extension.js \
                metadata.json \
-               COPYING \
+               LICENSE \
                README.md \
                $(NULL)
 
@@ -49,7 +49,7 @@ else
 	SHARE_PREFIX = $(DESTDIR)/usr/share
 	INSTALLBASE = $(SHARE_PREFIX)/gnome-shell/extensions
 endif
-INSTALLNAME = unitify@micxgx.gmail.com
+INSTALLNAME = unitify@teamcons.github.com
 
 # The command line passed variable VERSION is used to set the version string
 # in the metadata and in the generated zip-file. If no VERSION is passed, the

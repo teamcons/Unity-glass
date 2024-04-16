@@ -70,7 +70,16 @@
                         <property name="can_focus">0</property>
                         <property name="valign">center</property>
                         <items>
+                          <item translatable="yes">Raise window</item>
+                          <item translatable="yes">Minimize window</item>
+                          <item translatable="yes">Launch new instance</item>
+                          <item translatable="yes">Cycle through windows</item>
+                          <item translatable="yes">Minimize or overview</item>
+                          <item translatable="yes">Show window previews</item>
+                          <item translatable="yes">Minimize or show previews</item>
+                          <item translatable="yes">Focus or show previews</item>
                           <item translatable="yes">Focus or app spread</item>
+                          <item translatable="yes">Focus, minimize or show previews</item>
                           <item translatable="yes">Focus, minimize or app spread</item>
                           <item translatable="yes">Quit</item>
                         </items>
@@ -133,7 +142,16 @@
                         <property name="can_focus">0</property>
                         <property name="valign">center</property>
                         <items>
+                          <item translatable="yes">Raise window</item>
+                          <item translatable="yes">Minimize window</item>
+                          <item translatable="yes">Launch new instance</item>
+                          <item translatable="yes">Cycle through windows</item>
+                          <item translatable="yes">Minimize or overview</item>
+                          <item translatable="yes">Show window previews</item>
+                          <item translatable="yes">Minimize or show previews</item>
+                          <item translatable="yes">Focus or show previews</item>
                           <item translatable="yes">Focus or app spread</item>
+                          <item translatable="yes">Focus, minimize or show previews</item>
                           <item translatable="yes">Focus, minimize or app spread</item>
                           <item translatable="yes">Quit</item>
                         </items>
@@ -196,7 +214,16 @@
                         <property name="can_focus">0</property>
                         <property name="valign">center</property>
                         <items>
+                          <item translatable="yes">Raise window</item>
+                          <item translatable="yes">Minimize window</item>
+                          <item translatable="yes">Launch new instance</item>
+                          <item translatable="yes">Cycle through windows</item>
+                          <item translatable="yes">Minimize or overview</item>
+                          <item translatable="yes">Show window previews</item>
+                          <item translatable="yes">Minimize or show previews</item>
+                          <item translatable="yes">Focus or show previews</item>
                           <item translatable="yes">Focus or app spread</item>
+                          <item translatable="yes">Focus, minimize or show previews</item>
                           <item translatable="yes">Focus, minimize or app spread</item>
                           <item translatable="yes">Quit</item>
                         </items>
@@ -2031,6 +2058,22 @@
                                         </style>
                                       </object>
                                     </child>
+                                    <child>
+                                      <object class="GtkComboBoxText" id="running_indicators_combo">
+                                        <property name="can_focus">0</property>
+                                        <items>
+                                          <item translatable="yes">Default</item>
+                                          <item translatable="yes">Dots</item>
+                                          <item translatable="yes">Squares</item>
+                                          <item translatable="yes">Dashes</item>
+                                          <item translatable="yes">Segmented</item>
+                                          <item translatable="yes">Solid</item>
+                                          <item translatable="yes">Ciliora</item>
+                                          <item translatable="yes">Metro</item>
+                                          <item translatable="yes">Binary</item>
+                                        </items>
+                                      </object>
+                                    </child>
                                     <layout>
                                       <property name="column">1</property>
                                       <property name="row">0</property>
@@ -2273,7 +2316,7 @@
             <child>
               <object class="GtkLabel" id="extension_name">
                 <property name="can_focus">0</property>
-                <property name="label">&lt;b&gt;Unitify&lt;/b&gt;</property>
+                <property name="label">&lt;b&gt;Dash to Dock&lt;/b&gt;</property>
                 <property name="use_markup">1</property>
               </object>
             </child>
@@ -2331,7 +2374,7 @@
                 <property name="receives_default">1</property>
                 <property name="halign">center</property>
 
-                <property name="uri">https://micheleg.github.io/unitify/</property>
+                <property name="uri">https://micheleg.github.io/dash-to-dock/</property>
               </object>
             </child>
             <child>
