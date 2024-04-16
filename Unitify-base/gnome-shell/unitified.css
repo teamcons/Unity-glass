@@ -1,0 +1,77 @@
+/* Copyright 2009, Red Hat, Inc.
+ *
+ * Portions adapted from Mx's data/style/default.css
+ *   Copyright 2009 Intel Corporation
+ *
+ * Modified by DarkBeastOfPrey, 2014
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms and conditions of the GNU Lesser General Public License,
+ * version 2.1, as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+
+
+/* ------------------ CUSTOM ADDITIONS ---------------------- */
+
+
+
+/*------------------------------------------------*/
+/* Big Fat Button, the app launcher thingy */
+
+.show-apps .show-apps-icon {
+  background-image: url("launcher/bfb_launcher_traditional.png");
+  background-position: 0px 0px;
+  background-size: cover;
+  color: transparent;
+  border: none;
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
+  }
+
+/*------------------------------------------------*/
+/* Standard glass so defining of Unity */
+
+.dash-item-container > StWidget {
+  background-image: url("backlights/running-indicator-base.svg");
+  background-size: cover;
+  transition-duration: 100ms;}
+
+/*------------------------------------------------*/
+/* Hide running dots, display old unity style dots */
+/* Comment the block to enable Regular Dots(tm) */
+.app-well-app-running-dot { background-color: transparent;}
+.dash-item-container > StWidget.running1            {  background-image: url("backlights/running-indicator-dash-1.svg"); }
+.dash-item-container > StWidget.running1.focused    {  background-image: url("backlights/running-indicator-dash-1-focused.svg"); }
+.dash-item-container > StWidget.running2            {  background-image: url("backlights/running-indicator-dash-2.svg"); }
+.dash-item-container > StWidget.running2.focused    {  background-image: url("backlights/running-indicator-dash-2-focused.svg"); }
+.dash-item-container > StWidget.running3            {  background-image: url("backlights/running-indicator-dash-3.svg"); }
+.dash-item-container > StWidget.running3.focused    {  background-image: url("backlights/running-indicator-dash-3-focused.svg"); }
+.dash-item-container > StWidget.running4            {  background-image: url("backlights/running-indicator-dash-4.svg"); }
+.dash-item-container > StWidget.running4.focused    {  background-image: url("backlights/running-indicator-dash-4-focused.svg"); }
+
+
+/*****************************************************************/
+
+
+/* Standard glass so defining of Unity
+.show-apps:hover .show-apps-icon ,
+.show-apps:active .show-apps-icon ,
+.show-apps:checked .show-apps-icon ,
+.show-apps:focus .show-apps-icon,
+.show-apps:focused .show-apps-icon,
+.show-apps:selected .show-apps-icon {
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+  transition-duration: 0.2s; 
+  background-color: transparent;
+  background-size: cover;} */
+
+
