@@ -4,7 +4,7 @@ name: Make
   pull_request:
   push:
     branches:
-      - master
+      - main
       - ubuntu-dock
       - make_ci
 
