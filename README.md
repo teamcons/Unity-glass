@@ -1,25 +1,33 @@
 # Unitify
 Funky bash scripts ayo
 
-## 📂 Nautilus scripts/ ##
-Right-click actions. To install, put them in ~/.local/share/nautilus/scripts
+## Transform any theme into an unity variant ##
 
-I don't know for other file managers.
+This create unity style glassy look
 
 
-### 📄 pin ###
-Transform any file or folder into a pseudo "app", so it appears in the app grid or launcher, and can be put into a dock (the latter of which I was striving for)
 
-I cant the following :
+## I cant the following :
 - Colored backlights with dominant color
+- Adaptive colour
 - 3D accordion effect
 - Cool swishy where you can grab the dash
+Please contribute or fork or anything idk
+
+
+
+## Install
+Download the whole thing
+Run unitifier.sh
+Choose your --fighter-- theme
+
+## Uninstall
+
+
 
 <div align="center">
   <table>
       <td><img src="https://github.com/teamcons/whimsiness/blob/main/img/pin1.png" /></td>
-      <td><img src="https://github.com/teamcons/whimsiness/blob/main/img/pin2.png" /></td>
-      <td><img src="https://github.com/teamcons/whimsiness/blob/main/img/pin3.png" /></td>
   </table>
 </div>
 
