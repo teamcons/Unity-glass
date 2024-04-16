@@ -191,7 +191,7 @@
       <description>Apply customization to the dash appearance</description>
     </key>
     <key type="b" name="custom-theme-shrink">
-      <default>true/default>
+      <default>true</default>
       <summary>TODO</summary>
       <description>TODO</description>
     </key>
