@@ -620,7 +620,7 @@
       <description>Emulate the unity7 backlit glossy items behaviour</description>
     </key>
     <key name="apply-glossy-effect" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Enable glossy effect</summary>
       <description>Toggle the glossy effect of the unity7 backlit feature.</description>
     </key>
