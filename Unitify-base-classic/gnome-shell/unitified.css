@@ -29,7 +29,7 @@
 /* Big Fat Button, the app launcher thingy */
 
 .show-apps .show-apps-icon {
-  background-image: url("bigfatbutton/launcher_bfb_modern.svg");
+  background-image: url("launcher/bfb_launcher_traditional.png");
   background-position: 0px 0px;
   background-size: cover;
   color: transparent;
@@ -41,19 +41,9 @@
 /* Standard glass so defining of Unity */
 
 .dash-item-container > StWidget {
-  background-image: url("backlights/round_outline_54x54.png");
+  background-image: url("backlights/running-indicator-base.svg");
   background-size: cover;
   transition-duration: 100ms;}
-
-
-.dash-item-container:hover > StWidget:hover {
-    background-image: url("backlights/round_shine_54x54.png");
-    background-size: cover;
-    transition-duration: 100ms;}
-  
-
-
-
 
 /*------------------------------------------------*/
 /* Hide running dots, display old unity style dots */
