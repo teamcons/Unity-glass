@@ -1,6 +1,6 @@
-# Simplified Chinese translation of dash-to-dock
+# Simplified Chinese translation of unitify
 # Copyright (C) 2013 tuhaihe
-# This file is distributed under the same license as the dash-to-dock package.
+# This file is distributed under the same license as the unitify package.
 # tuhaihe <1132321739qq@gmail.com>, 2013.
 # 绿色圣光 <lishaohui.qd@163.com>, 2015, 2016, 2017.
 # zhmars <1403122061@qq.com>, 2019, 2020, 2021.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash to Dock\n"
+"Project-Id-Version: Unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-06 16:45+0800\n"
 "PO-Revision-Date: 2023-06-06 18:10+0800\n"
@@ -84,8 +84,8 @@ msgstr "退出 %d 个窗口"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash to Dock %s"
+msgid "Unitify %s"
+msgstr "Unitify %s"
 
 #: locations.js:529
 msgid "Mount"

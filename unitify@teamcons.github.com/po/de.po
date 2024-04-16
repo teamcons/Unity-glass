@@ -1,6 +1,6 @@
 # Translation for German (de)
 # Copyright (C) 2014 Michele
-# This file is distributed under the same license as the dash-to-dock package.
+# This file is distributed under the same license as the unitify package.
 # Morris Jobke <hey@morrisjobke.de>, 2014
 # Jonatan Zeidler <jonatan_zeidler@hotmail.de>, 2012
 # jonius <jonatan_zeidler@gmx.de>, 2012
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash to Dock\n"
+"Project-Id-Version: Unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 23:57+0100\n"
 "PO-Revision-Date: 2023-11-03 00:28+0100\n"
@@ -127,8 +127,8 @@ msgstr[1] "%d Fenster beenden"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash-to-Dock-%s"
+msgid "Unitify %s"
+msgstr "unitify-%s"
 
 #: appIcons.js:1442
 msgid "Settings"

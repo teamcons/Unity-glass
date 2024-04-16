@@ -1439,7 +1439,7 @@ class DockShowAppsIconMenu extends DockAppIconMenu {
 
         /* Translators: %s is "Settings", which is automatically translated. You
            can also translate the full message if this fits better your language. */
-        const name = __('Dash to Dock %s').format(_('Settings'));
+        const name = __('Unitify %s').format(_('Settings'));
         const item = this._appendMenuItem(name);
 
         item.connect('activate', () =>

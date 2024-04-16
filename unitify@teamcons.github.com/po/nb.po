@@ -1,11 +1,11 @@
-# Norwegian Bokmål translation for Dash to Dock.
+# Norwegian Bokmål translation for Unitify.
 # Copyright (C) 2018 Michele
-# This file is distributed under the same license as the dash-to-dock package.
+# This file is distributed under the same license as the unitify package.
 # Harald H. <harald@fsfe.org>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash-to-Dock\n"
+"Project-Id-Version: unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-28 09:47+0100\n"
 "PO-Revision-Date: 2018-03-02 11:02+0100\n"
@@ -67,8 +67,8 @@ msgstr "Alle vinduer"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1069
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash to Dock %s"
+msgid "Unitify %s"
+msgstr "Unitify %s"
 
 #: Settings.ui.h:1
 msgid ""

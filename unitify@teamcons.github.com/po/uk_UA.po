@@ -1,8 +1,8 @@
-# Ukrainian translation for dash-to-dock GNOME Shell extension
+# Ukrainian translation for unitify GNOME Shell extension
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dash-to-dock\n"
+"Project-Id-Version: unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-14 14:30+0300\n"
 "PO-Revision-Date: 2023-10-14 14:31+0300\n"
@@ -121,8 +121,8 @@ msgstr[2] "Закрити %d вікон"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "%s Dash to Dock"
+msgid "Unitify %s"
+msgstr "%s Unitify"
 
 #: appIcons.js:1442
 msgid "Settings"

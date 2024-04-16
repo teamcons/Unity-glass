@@ -2,11 +2,11 @@
 
 ## Transform any theme into an unity variant ##
 
-This is a grossly done fork of Dash-to-dock. It is built with more "Unity-like" defaults, some removing, some tweaking, some adding, to be a self kinda working extension which replicates Unity by default.
+This is a grossly done fork of unitify. It is built with more "Unity-like" defaults, some removing, some tweaking, some adding, to be a self kinda working extension which replicates Unity by default.
 
 I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay a bit bastardy and bloated, and im sorry for that !
 
-The settings would be simplified a lot, because not only cant i maintain something like Dash-to-Dock with all its moving parts, it would be a rad excuse to follow in Unity's footsteps to be basic and one-and-done (provided people dont look under the hood)
+The settings would be simplified a lot, because not only cant i maintain something like unitify with all its moving parts, it would be a rad excuse to follow in Unity's footsteps to be basic and one-and-done (provided people dont look under the hood)
 
 
 ### I am working on :

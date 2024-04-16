@@ -1,5 +1,5 @@
-# Dash to Dock spanish translation.
-# This file is distributed under the same license as the Dash to Dock package.
+# Unitify spanish translation.
+# This file is distributed under the same license as the Unitify package.
 # Hugo Olabera <hugolabe@gmail.com>, 2015.
 # hasecilu <hasecilu@tuta.io>, 2023.
 #
@@ -83,8 +83,8 @@ msgstr "Cerrar %d ventanas"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1440
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "%s • Dash to Dock"
+msgid "Unitify %s"
+msgstr "%s • Unitify"
 
 #: locations.js:517
 msgid "Mount"

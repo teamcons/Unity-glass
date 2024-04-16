@@ -1,4 +1,4 @@
-# Dash-to-Dock Brazilian Portuguese translation.
+# unitify Brazilian Portuguese translation.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Carlos Alberto Junior Spohr Poletto <carlos.spohr@gmail.com>, 2012.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash to Dock\n"
+"Project-Id-Version: Unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 21:07-0300\n"
 "PO-Revision-Date: 2022-05-24 22:08-0300\n"
@@ -86,8 +86,8 @@ msgstr "Sair %d janelas"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1336
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "%s do Dash to Dock"
+msgid "Unitify %s"
+msgstr "%s do Unitify"
 
 #: locations.js:422
 msgid "Mount"

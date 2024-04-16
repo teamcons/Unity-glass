@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash to Dock\n"
+"Project-Id-Version: Unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-17 15:58+0200\n"
 "PO-Revision-Date: 2022-09-17 16:09+0200\n"
@@ -82,8 +82,8 @@ msgstr "Quitter %d fenêtres"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1386
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash to Dock %s"
+msgid "Unitify %s"
+msgstr "Unitify %s"
 
 #: locations.js:436
 msgid "Mount"

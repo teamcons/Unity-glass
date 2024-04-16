@@ -1,6 +1,6 @@
-# Turkish translation for dash-to-dock GNOME shell extension.
-# Copyright (C) 2015-2023, dash-to-dock'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the dash-to-dock package.
+# Turkish translation for unitify GNOME shell extension.
+# Copyright (C) 2015-2023, unitify'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the unitify package.
 #
 # Mustafa Akgün <mustafa.akgun@gmail.com>, 2015.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2016.
@@ -15,8 +15,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dash-to-dock master\n"
-"Report-Msgid-Bugs-To: https://github.com/micheleg/dash-to-dock/issues\n"
+"Project-Id-Version: unitify master\n"
+"Report-Msgid-Bugs-To: https://github.com/micheleg/unitify/issues\n"
 "POT-Creation-Date: 2023-05-21 02:32+0300\n"
 "PO-Revision-Date: 2023-05-21 02:34+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
@@ -671,8 +671,8 @@ msgstr "%d Pencereden Çık"
 
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash to Dock %sı"
+msgid "Unitify %s"
+msgstr "Unitify %sı"
 
 #: appIcons.js:1442
 msgid "Settings"

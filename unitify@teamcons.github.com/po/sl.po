@@ -1,12 +1,12 @@
-# Slovenian translation for dash-to-dock
-# Copyright (C) 2021 dash-to-dock COPYRIGHT HOLDER
-# This file is distributed under the same license as the dash-to-dock package.
+# Slovenian translation for unitify
+# Copyright (C) 2021 unitify COPYRIGHT HOLDER
+# This file is distributed under the same license as the unitify package.
 #
 # Matej Urbančič <mateju@src.gnome.org>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dash to Dock\n"
+"Project-Id-Version: Unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-06 16:45+0800\n"
 "PO-Revision-Date: 2023-07-13 18:42+0200\n"
@@ -86,8 +86,8 @@ msgstr "Končaj %d oken"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "%s Nastavitve programa Dash to Dock"
+msgid "Unitify %s"
+msgstr "%s Nastavitve programa Unitify"
 
 #: locations.js:529
 msgid "Mount"

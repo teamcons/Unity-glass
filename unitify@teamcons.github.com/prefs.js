@@ -139,7 +139,7 @@ const MonitorsConfig = GObject.registerClass({
         for (const monitor of this._monitors) {
             let {index} = monitor;
             // The The dock uses the Gdk index for monitors, where the primary monitor
-            // always has index 0, so let's follow what dash-to-dock does in docking.js
+            // always has index 0, so let's follow what unitify does in docking.js
             // (as part of _createDocks), but using inverted math
             index -= primaryMonitorIndex;
 
@@ -182,7 +182,7 @@ const DockSettings = GObject.registerClass({
 
         this._extensionPreferences = extensionPreferences;
         this._settings = extensionPreferences.getSettings(
-            'org.gnome.shell.extensions.dash-to-dock');
+            'org.gnome.shell.extensions.unitify');
         this._appSwitcherSettings = new Gio.Settings({schema_id: 'org.gnome.shell.app-switcher'});
         this._rtl = Gtk.Widget.get_default_direction() === Gtk.TextDirection.RTL;
 

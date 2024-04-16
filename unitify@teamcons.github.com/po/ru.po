@@ -1,4 +1,4 @@
-# Russian translation for dash-to-dock GNOME Shell extension
+# Russian translation for unitify GNOME Shell extension
 # Ivan Komaritsyn <vantu5z@mail.ru>, 2015-2020.
 # Eduard Minasyan <mreditor@mail.ru>, 2021.
 # Timofey Hrapovitskiy <vuki03@mail.ru>, 2021
@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dash-to-dock\n"
+"Project-Id-Version: unitify\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-17 20:20+0300\n"
 "PO-Revision-Date: 2023-04-17 21:23+0300\n"
@@ -82,8 +82,8 @@ msgstr "Закрыть %d окон"
 #. can also translate the full message if this fits better your language.
 #: appIcons.js:1442
 #, javascript-format
-msgid "Dash to Dock %s"
-msgstr "Dash to Dock %s"
+msgid "Unitify %s"
+msgstr "Unitify %s"
 
 #: locations.js:517
 msgid "Mount"
