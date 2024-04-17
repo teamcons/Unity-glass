@@ -30,7 +30,7 @@
 
 .show-apps .show-apps-icon {
   background-image: url("launcher/launcher_bfb.png");
-  background-position: 0px 0px;
+  background-position: 0px -4px;
   background-size: cover;
   color: transparent;
   border: none;
@@ -54,7 +54,7 @@
 
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
-    //background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 
