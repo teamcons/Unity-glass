@@ -29,7 +29,7 @@
 /* Big Fat Button, the app launcher thingy */
 
 .show-apps .show-apps-icon {
-  background-image: url("launcher/launcher_bfb.svg");
+  background-image: url("launcher/launcher_bfb.png");
   background-position: 0px 0px;
   background-size: cover;
   color: transparent;
