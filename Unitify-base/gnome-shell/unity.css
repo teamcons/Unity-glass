@@ -31,7 +31,7 @@
 .show-apps .show-apps-icon {
   background-image: url("launcher/launcher_bfb.png");
   background-position: 0px -4px;
-  background-size: cover;
+  background-size: contain;
   color: transparent;
   border: none;
   -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
@@ -45,24 +45,24 @@
   background-size: cover;
   transition-duration: 100ms;}
 
-
-.dash-item-container:hover > StWidget:hover {
+.show-apps .show-apps-icon,
+.dash-item-container:hover > StWidget:hover, {
     background-image: url("backlights/round_shine_54x54.png");
     background-size: cover;
     transition-duration: 100ms;}
   
 
-
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
+    background-size: contain;
+    /*background-color: transparent;*/
 }
+
 
 /*------------------------------------------------*/
 /* Hide running dots, display old unity style dots */
-/* Comment the block to enable Regular Dots(tm) */
-
-
-/*
+/* Comment the block to enable Regular Dots(tm) 
+.app-well-app-running-dot { }
 .dash-item-container > StWidget.running1            {  background-image: url("backlights/running-indicator-dash-1.svg"); }
 .dash-item-container > StWidget.running1.focused    {  background-image: url("backlights/running-indicator-dash-1-focused.svg"); }
 .dash-item-container > StWidget.running2            {  background-image: url("backlights/running-indicator-dash-2.svg"); }

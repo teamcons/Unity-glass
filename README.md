@@ -42,9 +42,11 @@ Please contribute or fork or anything idk, a girl needs her Unity
 ## Build it yourself
 
 ### Install
-Make
+Download as zip
+in a terminal do: nautilus .local/share/gnome-shell/extensions
+Save the folder named "unityglass@teamcons.github.com" there
 
-
+It should appear in the extensions
 
 ### Uninstall
 
@@ -52,7 +54,7 @@ open a terminal, enter:
 $ nautilus ~/.local/share/extensions/
 
 The file manager opens
-Delete the folder "unitify@teamcons.github.com"
+Delete the folder "unityglass@teamcons.github.com"
 
 
 
