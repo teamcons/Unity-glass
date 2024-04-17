@@ -1,6 +1,6 @@
 # Unitify
 
-## Transform any theme into an unity variant ##
+## Unity ##
 
 This is a grossly done fork of unitify. It is built with more "Unity-like" defaults, some removing, some tweaking, some adding, to be a self kinda working extension which replicates Unity by default.
 
