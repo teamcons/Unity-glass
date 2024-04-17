@@ -2,20 +2,29 @@
 
 ## Unity ##
 
-This is a grossly done fork of unitify. It is built with more "Unity-like" defaults, some removing, some tweaking, some adding, to be a self kinda working extension which replicates Unity by default.
+This is intended to be used alongside a dock of your choosening
 
-I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay a bit bastardy and bloated, and im sorry for that !
-
-The settings would be simplified a lot, because not only cant i maintain something like unitify with all its moving parts, it would be a rad excuse to follow in Unity's footsteps to be basic and one-and-done (provided people dont look under the hood)
+I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay a bit bastardy and limited, and im sorry for that !
 
 
-### I am working on :
-- Have this actually working by hacking the CSS
-- Simpler settings will all the lack of customization that made people angry, like in olden times
-- Change launcher to traditional (old one from 14.04), modern (Ubuntu Unity now), Yaru (Basic symbolic circle of friends)
+<div align="center">
+  <table>
+      <td><img src="https://github.com/teamcons/unity-glass/blob/main/images/screenshot.png" /></td>
+  </table>
+</div>
 
 
-### I cant the following :
+
+### What i dream of and know i can
+- Glassy effect fully work
+- Small indicators
+- Basic optional standalone dock
+- Glassy right click menu
+- Settings : Change launcher to traditional (old one from 14.04), modern (Ubuntu Unity now), Yaru (Basic symbolic circle of friends)
+
+
+### I cant the following please contribute dear stranger
+- Bring from Dash-to-dock "focus, app spread, (minimize)", Unity backlights, autohide (dumb or smart)
 - Cleaner colored backlights with animations like it "fukken shine" like my alter would say
 - Adaptive colour for the dash according to wallpaper. Its so cool i cant even
 - 3D accordion effect, i guess it requires some CSS rotate and some animation magic and all. Id love it if someone offered the feature
@@ -25,12 +34,6 @@ The settings would be simplified a lot, because not only cant i maintain somethi
 Please contribute or fork or anything idk, a girl needs her Unity
 
 
-
-<div align="center">
-  <table>
-      <td><img src="https://github.com/teamcons/whimsiness/blob/main/img/pin1.png" /></td>
-  </table>
-</div>
 
 
 
