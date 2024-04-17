@@ -3,9 +3,15 @@
 ## Unity ##
 
 This is intended to be used alongside a dock of your choosening
+I feel like the "everything flat" trend makes everything look a bit soulless somewhat.
 
 I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay a bit bastardy and limited, and im sorry for that !
 
+If you want to have a rad Unity experience :
+-Dash-To-Dock extension for a dock
+-+Last tab, indicator customizations, there is unity-like backlights
+-Unite extension
+-Blur-My-Shell extension
 
 <div align="center">
   <table>
@@ -15,16 +21,16 @@ I am not that good with Javascript, anything user interface, CSS, and the rest o
 
 
 
-### What i dream of and know i can
-- Glassy effect fully work
-- Small indicators
-- Basic optional standalone dock
+### Probably attainable by me
+- Glassy effect be more precise, animated, and less crude
+- Small arrow indicators for focus and opened apps
 - Glassy right click menu
 - Settings : Change launcher to traditional (old one from 14.04), modern (Ubuntu Unity now), Yaru (Basic symbolic circle of friends)
+- Also choose glass encasing to be elegant case or awkward squircle ?
 
 
 ### I cant the following please contribute dear stranger
-- Bring from Dash-to-dock "focus, app spread, (minimize)", Unity backlights, autohide (dumb or smart)
+- Closer to Unity7
 - Cleaner colored backlights with animations like it "fukken shine" like my alter would say
 - Adaptive colour for the dash according to wallpaper. Its so cool i cant even
 - 3D accordion effect, i guess it requires some CSS rotate and some animation magic and all. Id love it if someone offered the feature
