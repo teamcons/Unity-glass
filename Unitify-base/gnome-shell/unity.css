@@ -30,7 +30,7 @@
 
 .show-apps .show-apps-icon {
   background-image: url("launcher/launcher_bfb.png");
-  background-position: 0px 0px;
+  background-position: 0px -4px;
   background-size: cover;
   color: transparent;
   border: none;
@@ -52,16 +52,17 @@
     transition-duration: 100ms;}
   
 
+
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
-    //background-color: transparent;
 }
-
 
 /*------------------------------------------------*/
 /* Hide running dots, display old unity style dots */
-/* Comment the block to enable Regular Dots(tm) 
-.app-well-app-running-dot { }
+/* Comment the block to enable Regular Dots(tm) */
+
+
+/*
 .dash-item-container > StWidget.running1            {  background-image: url("backlights/running-indicator-dash-1.svg"); }
 .dash-item-container > StWidget.running1.focused    {  background-image: url("backlights/running-indicator-dash-1-focused.svg"); }
 .dash-item-container > StWidget.running2            {  background-image: url("backlights/running-indicator-dash-2.svg"); }

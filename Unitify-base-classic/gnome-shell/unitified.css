@@ -29,7 +29,7 @@
 /* Big Fat Button, the app launcher thingy */
 
 .show-apps .show-apps-icon {
-  background-image: url("launcher/launcher_bfb.png");
+  background-image: url("launcher/bfb_launcher_traditional.png");
   background-position: 0px 0px;
   background-size: cover;
   color: transparent;
@@ -41,27 +41,14 @@
 /* Standard glass so defining of Unity */
 
 .dash-item-container > StWidget {
-  background-image: url("backlights/round_outline_54x54.png");
+  background-image: url("backlights/running-indicator-base.svg");
   background-size: cover;
   transition-duration: 100ms;}
 
-
-.dash-item-container:hover > StWidget:hover {
-    background-image: url("backlights/round_shine_54x54.png");
-    background-size: cover;
-    transition-duration: 100ms;}
-  
-
-.app-well-app-running-dot { 
-    background-image: url("arrows/arrow_right.png");
-    //background-color: transparent;
-}
-
-
 /*------------------------------------------------*/
 /* Hide running dots, display old unity style dots */
-/* Comment the block to enable Regular Dots(tm) 
-.app-well-app-running-dot { }
+/* Comment the block to enable Regular Dots(tm) */
+.app-well-app-running-dot { background-color: transparent;}
 .dash-item-container > StWidget.running1            {  background-image: url("backlights/running-indicator-dash-1.svg"); }
 .dash-item-container > StWidget.running1.focused    {  background-image: url("backlights/running-indicator-dash-1-focused.svg"); }
 .dash-item-container > StWidget.running2            {  background-image: url("backlights/running-indicator-dash-2.svg"); }
@@ -70,7 +57,21 @@
 .dash-item-container > StWidget.running3.focused    {  background-image: url("backlights/running-indicator-dash-3-focused.svg"); }
 .dash-item-container > StWidget.running4            {  background-image: url("backlights/running-indicator-dash-4.svg"); }
 .dash-item-container > StWidget.running4.focused    {  background-image: url("backlights/running-indicator-dash-4-focused.svg"); }
-*/
+
 
 /*****************************************************************/
+
+
+/* Standard glass so defining of Unity
+.show-apps:hover .show-apps-icon ,
+.show-apps:active .show-apps-icon ,
+.show-apps:checked .show-apps-icon ,
+.show-apps:focus .show-apps-icon,
+.show-apps:focused .show-apps-icon,
+.show-apps:selected .show-apps-icon {
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+  transition-duration: 0.2s; 
+  background-color: transparent;
+  background-size: cover;} */
+
 
