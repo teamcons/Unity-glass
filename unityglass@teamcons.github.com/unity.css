@@ -36,27 +36,58 @@
   border: none;
   -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
   }
+  
+  
+.show-apps:hover .show-apps-icon:hover,
+.show-apps:active .show-apps-icon:active,
+.show-apps:checked .show-apps-icon:checked ,
+.show-apps:focus .show-apps-icon:focus {
+  transition-duration: 0.2s;
+  color: transparent;
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+  }
+
+
+
+
+
 
 /*------------------------------------------------*/
-/* Standard glass so defining of Unity */
-
-.dash-item-container > StWidget {
-  background-image: url("backlights/round_shine_54x54.png");
-  background-size: cover;
-  transition-duration: 100ms;}
 
 /*
-.show-apps .show-apps-icon,
-.dash-item-container:hover > StWidget:hover, {
-    background-image: url("backlights/round_shine_54x54.png");
-    background-size: cover;
-    transition-duration: 100ms;}
+RESERVE:
+round_outline_54x54
+round_glow_62x62
+round_glow_hl_62x62
 */
 
+/* Standard glass so defining of Unity */
+.dash-item-container > StWidget {
+  background-image: url("backlights/round_shine_54x54.png");
+  transition-duration: 100ms;
+  background-size: cover;
+  text-align: center;
+  padding: 55px;
+  }
+  
+  
+/* Le hover */
+.dash-item-container:hover,
+.dash-item-container:active,
+.dash-item-container:checked,
+.dash-item-container:focus > StWidget, {
+    background-image: url("backlights/round_glow_62x62.png");
+    transition-duration: 100ms;
+    background-color: red;
+    color: green;
+    background-size: cover;
+}
+
+/* Le arrows */
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
-    background-size: contain;
-    color: transparent;
+    background-size: cover;
+    /*color: transparent;*/
 }
 
 
