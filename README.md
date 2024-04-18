@@ -68,5 +68,11 @@ Delete the folder "unityglass@teamcons.github.com"
 
 I scavenged a lot out of these
 
-Micheleg
-Unity theme
+How to do an extension to load CSS, from this extension :
+https://github.com/TomaszGasior/gnome-shell-user-stylesheet
+
+How to CSS from this theme :
+https://github.com/B00merang-Project/Unity-7
+
+Assets come from the OG :
+https://launchpad.net/unity
