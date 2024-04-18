@@ -1,28 +1,3 @@
-/* Copyright 2009, Red Hat, Inc.
- *
- * Portions adapted from Mx's data/style/default.css
- *   Copyright 2009 Intel Corporation
- *
- * Modified by DarkBeastOfPrey, 2014
- *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms and conditions of the GNU Lesser General Public License,
- * version 2.1, as published by the Free Software Foundation.
- *
- * This program is distributed in the hope it will be useful, but WITHOUT ANY
- * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
- * more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this program; if not, write to the Free Software Foundation,
- * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
- */
-
-
-
-/* ------------------ CUSTOM ADDITIONS ---------------------- */
-
 
 
 /*------------------------------------------------*/
@@ -48,18 +23,7 @@
   }
 
 
-
-
-
-
 /*------------------------------------------------*/
-
-/*
-RESERVE:
-round_outline_54x54
-round_glow_62x62
-round_glow_hl_62x62
-*/
 
 /* Standard glass so defining of Unity */
 .dash-item-container > StWidget {
@@ -78,34 +42,6 @@ round_glow_hl_62x62
 .dash-item-container:focus > StWidget, {
     background-image: url("backlights/round_glow_62x62.png");
     transition-duration: 100ms;
-    background-color: red;
-    color: green;
     background-size: cover;
 }
-
-/* Le arrows */
-.app-well-app-running-dot { 
-    background-image: url("arrows/arrow_right.png");
-    background-size: 55% 70%;
-    background-color: red;
-    color: green;
-    /*color: transparent;*/
-}
-
-
-/*------------------------------------------------*/
-/* Hide running dots, display old unity style dots */
-/* Comment the block to enable Regular Dots(tm) 
-.app-well-app-running-dot { }
-.dash-item-container > StWidget.running1            {  background-image: url("backlights/running-indicator-dash-1.svg"); }
-.dash-item-container > StWidget.running1.focused    {  background-image: url("backlights/running-indicator-dash-1-focused.svg"); }
-.dash-item-container > StWidget.running2            {  background-image: url("backlights/running-indicator-dash-2.svg"); }
-.dash-item-container > StWidget.running2.focused    {  background-image: url("backlights/running-indicator-dash-2-focused.svg"); }
-.dash-item-container > StWidget.running3            {  background-image: url("backlights/running-indicator-dash-3.svg"); }
-.dash-item-container > StWidget.running3.focused    {  background-image: url("backlights/running-indicator-dash-3-focused.svg"); }
-.dash-item-container > StWidget.running4            {  background-image: url("backlights/running-indicator-dash-4.svg"); }
-.dash-item-container > StWidget.running4.focused    {  background-image: url("backlights/running-indicator-dash-4-focused.svg"); }
-*/
-
-/*****************************************************************/
 
