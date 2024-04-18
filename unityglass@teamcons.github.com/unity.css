@@ -67,7 +67,7 @@ round_glow_hl_62x62
   transition-duration: 100ms;
   background-size: cover;
   text-align: center;
-  padding: 55px;
+  padding: 2px;
   }
   
   
@@ -86,7 +86,9 @@ round_glow_hl_62x62
 /* Le arrows */
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
-    background-size: cover;
+    background-size: 55% 70%;
+    background-color: red;
+    color: green;
     /*color: transparent;*/
 }
 
