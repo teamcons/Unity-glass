@@ -41,21 +41,22 @@
 /* Standard glass so defining of Unity */
 
 .dash-item-container > StWidget {
-  background-image: url("backlights/round_outline_54x54.png");
+  background-image: url("backlights/round_shine_54x54.png");
   background-size: cover;
   transition-duration: 100ms;}
 
+/*
 .show-apps .show-apps-icon,
 .dash-item-container:hover > StWidget:hover, {
     background-image: url("backlights/round_shine_54x54.png");
     background-size: cover;
     transition-duration: 100ms;}
-  
+*/
 
 .app-well-app-running-dot { 
     background-image: url("arrows/arrow_right.png");
     background-size: contain;
-    /*background-color: transparent;*/
+    color: transparent;
 }
 
 
