@@ -1,0 +1,47 @@
+
+
+/*------------------------------------------------*/
+/* Big Fat Button, the app launcher thingy */
+
+.show-apps .show-apps-icon {
+  background-image: url("launcher/launcher_bfb.png");
+  background-position: 0px -4px;
+  background-size: contain;
+  color: transparent;
+  border: none;
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  
+.show-apps:hover .show-apps-icon:hover,
+.show-apps:active .show-apps-icon:active,
+.show-apps:checked .show-apps-icon:checked ,
+.show-apps:focus .show-apps-icon:focus {
+  transition-duration: 0.2s;
+  color: transparent;
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+  }
+
+
+/*------------------------------------------------*/
+
+/* Standard glass so defining of Unity */
+.dash-item-container > StWidget {
+  background-image: url("backlights/round_shine_54x54.png");
+  transition-duration: 100ms;
+  background-size: cover;
+  text-align: center;
+  padding: 2px;
+  }
+  
+  
+/* Le hover */
+.dash-item-container:hover,
+.dash-item-container:active,
+.dash-item-container:checked,
+.dash-item-container:focus > StWidget, {
+    background-image: url("backlights/round_glow_62x62.png");
+    transition-duration: 100ms;
+    background-size: cover;
+}
+
