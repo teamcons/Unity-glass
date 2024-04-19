@@ -4,7 +4,7 @@
 /* Big Fat Button, the app launcher thingy */
 
 .show-apps .show-apps-icon {
-  background-image: url("launcher/launcher_bfb.png");
+  background-image: url("launcher_bfb.png");
   background-position: 0px -4px;
   background-size: contain;
   color: transparent;
@@ -27,7 +27,7 @@
 
 /* Standard glass so defining of Unity */
 .dash-item-container > StWidget {
-  background-image: url("backlights/round_shine_54x54.png");
+  background-image: url("round_shine_54x54.png");
   transition-duration: 100ms;
   background-size: cover;
   text-align: center;
@@ -39,8 +39,8 @@
 .dash-item-container:hover,
 .dash-item-container:active,
 .dash-item-container:checked,
-.dash-item-container:focus > StWidget, {
-    background-image: url("backlights/round_glow_62x62.png");
+.dash-item-container:focus > StWidget {
+    background-image: url("round_glow_62x62.png");
     transition-duration: 100ms;
     background-size: cover;
 }

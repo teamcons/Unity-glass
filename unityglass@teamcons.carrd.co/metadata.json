@@ -1,0 +1,12 @@
+{
+    "uuid": "unityglass@teamcons.carrd.co",
+    "name": "Unity-Glass",
+    "description": "Apply Unity glass encasing over icons - For usage with a dock extension",
+    "version": 1,
+    "original-author": "Stella from Team Constellation",
+    "url": "https://github.com/teamcons/Unity-glass",
+    "shell-version": [
+        "45",
+        "46"
+    ]
+}

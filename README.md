@@ -5,13 +5,13 @@
 This is intended to be used alongside a dock of your choosening
 I feel like the "everything flat" trend makes everything look a bit soulless somewhat.
 
-I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay a bit bastardy and limited, and im sorry for that !
+I am not that good with Javascript, anything user interface, CSS, and the rest of the gang doesnt like much when i code so i limit coding time a lot as well. So unless someone who knows what they do steps in, it will stay very crude and limited, and im sorry for that !
 
 If you want to have a rad Unity experience :
--Dash-To-Dock extension for a dock
--+Last tab, indicator customizations, there is unity-like backlights
--Unite extension
--Blur-My-Shell extension
+- Dash-To-Dock extension for a dock
+- +Last tab, indicator customizations, there is unity-like backlights
+- Unite extension
+- Blur-My-Shell extension
 
 <div align="center">
   <table>
@@ -57,9 +57,11 @@ It should appear in the extensions
 ### Uninstall
 
 open a terminal, enter:
+
 $ nautilus ~/.local/share/extensions/
 
 The file manager opens
+
 Delete the folder "unityglass@teamcons.github.com"
 
 
