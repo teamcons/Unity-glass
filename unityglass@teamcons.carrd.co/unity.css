@@ -40,7 +40,7 @@
 .dash-item-container:active,
 .dash-item-container:checked,
 .dash-item-container:focus > StWidget {
-    background-image: url("round_glow_62x62.png");
+    background-image: url("round_outline_54x54.png");
     transition-duration: 100ms;
     background-size: cover;
 }

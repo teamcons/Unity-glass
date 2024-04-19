@@ -12,10 +12,10 @@ export default class ApplyUnityGlass
     {
         // Grab the CSS to load
         let themeContext = St.ThemeContext.get_for_stage(global.stage);
-        let stylesheetPath = './unity.css'
-        //let stylesheetPath = GLib.build_filenamev(
-        //    ['.local', 'share', 'gnome-shell', 'extensions', 'unityglass@teamcons.github.com', 'unity.css']
-        // )
+        //let stylesheetPath = './unity.css'
+        let stylesheetPath = GLib.build_filenamev(
+            ['.local', 'share', 'gnome-shell', 'extensions', 'unityglass@teamcons.carrd.co', 'unity.css']
+         )
             
         // Load it
         //try {
