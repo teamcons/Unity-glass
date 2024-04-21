@@ -3,19 +3,19 @@
 /*------------------------------------------------*/
 /* Big Fat Button, the app launcher thingy */
 
+/* background position is for bfb at the top, not the end like ubuntu */
 .show-apps .show-apps-icon {
   background-image: url("launcher_bfb.png");
   background-position: 0px -4px;
-  background-size: contain;
+  background-size: cover;
   color: transparent;
-  border: none;
   -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
   }
   
   
 .show-apps:hover .show-apps-icon:hover,
 .show-apps:active .show-apps-icon:active,
-.show-apps:checked .show-apps-icon:checked ,
+.show-apps:checked .show-apps-icon:checked,
 .show-apps:focus .show-apps-icon:focus {
   transition-duration: 0.2s;
   color: transparent;
@@ -31,17 +31,4 @@
   transition-duration: 100ms;
   background-size: cover;
   text-align: center;
-  padding: 2px;
   }
-  
-  
-/* Le hover */
-.dash-item-container:hover,
-.dash-item-container:active,
-.dash-item-container:checked,
-.dash-item-container:focus > StWidget {
-    background-image: url("round_outline_54x54.png");
-    transition-duration: 100ms;
-    background-size: cover;
-}
-
