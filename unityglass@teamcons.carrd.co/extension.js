@@ -12,10 +12,9 @@ export default class ApplyUnityGlass
     {
         // Grab the CSS to load
         let themeContext = St.ThemeContext.get_for_stage(global.stage);
-        //let stylesheetPath = GLib.build_filenamev([this.path, 'unity.css'])
-            
-        // Load it
         
+        // Current dir seems to be Home... I dont know how to target the extensions CSS
+        // I cant figure it out :(
         this.stylesheetFile = Gio.File.new_for_path('.local/share/gnome-shell/extensions/unityglass@teamcons.carrd.co/unity.css');
         themeContext.get_theme().load_stylesheet(this.stylesheetFile);
     }
