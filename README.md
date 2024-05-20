@@ -2,6 +2,8 @@
 
 ## Unity ##
 
+On Gnome Extensions: https://extensions.gnome.org/extension/7006/unity-glass/
+
 This is intended to be used alongside a dock of your choosening
 I feel like the "everything flat" trend makes everything look a bit soulless somewhat.
 
