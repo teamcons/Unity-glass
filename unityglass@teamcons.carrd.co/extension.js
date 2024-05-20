@@ -12,17 +12,12 @@ export default class ApplyUnityGlass
     {
         // Grab the CSS to load
         let themeContext = St.ThemeContext.get_for_stage(global.stage);
-        //let stylesheetPath = './unity.css'
-        let stylesheetPath = GLib.build_filenamev(
-            ['.local', 'share', 'gnome-shell', 'extensions', 'unityglass@teamcons.carrd.co', 'unity.css']
-         )
+        //let stylesheetPath = GLib.build_filenamev([this.path, 'unity.css'])
             
         // Load it
-        //try {
-            this.stylesheetFile = Gio.File.new_for_path(stylesheetPath);
-            themeContext.get_theme().load_stylesheet(this.stylesheetFile);
-        //}
-        //catch(e) {}
+        
+        this.stylesheetFile = Gio.File.new_for_path('.local/share/gnome-shell/extensions/unityglass@teamcons.carrd.co/unity.css');
+        themeContext.get_theme().load_stylesheet(this.stylesheetFile);
     }
 
     // Upon extension deactivation
