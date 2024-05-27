@@ -2,7 +2,7 @@
 <schemalist>
   <schema id="org.gnome.shell.extensions.unityglass"
   path="/org/gnome/shell/extensions/unityglass/">
-    <key name="theme" type="s">
+    <key name="Launcher" type="s">
       <default>''</default>
     </key>
   </schema>
