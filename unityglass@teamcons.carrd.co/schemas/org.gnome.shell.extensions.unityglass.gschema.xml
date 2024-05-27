@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.unityglass"
+  path="/org/gnome/shell/extensions/unityglass/">
+    <key name="theme" type="s">
+      <default>''</default>
+    </key>
+  </schema>
+</schemalist>

@@ -11,17 +11,17 @@ export default class ApplyUnityGlass
     enable()
     {
         // Grab the CSS to load
-        let themeContext        = St.ThemeContext.get_for_stage(global.stage);
-        this.stylesheetFile     =  GLib.build_filenamev([self.metadata.path, 'unity.css']);
+        //let themeContext        = St.ThemeContext.get_for_stage(global.stage);
+        //this.stylesheetFile     =  GLib.build_filenamev([self.metadata.path, 'unity.css']);
 
         // Load
-        themeContext.get_theme().load_stylesheet(this.stylesheetFile);
+        //themeContext.get_theme().load_stylesheet(this.stylesheetFile);
     }
 
     // Upon extension deactivation
     disable()
     {
-        let themeContext        = St.ThemeContext.get_for_stage(global.stage);
-        if (this.stylesheetFile) { themeContext.get_theme().unload_stylesheet(this.stylesheetFile);}
+        //let themeContext        = St.ThemeContext.get_for_stage(global.stage);
+        //if (this.stylesheetFile) { themeContext.get_theme().unload_stylesheet(this.stylesheetFile);}
     }
 }
