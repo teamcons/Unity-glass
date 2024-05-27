@@ -3,25 +3,40 @@ import Gio from 'gi://Gio';
 import St from 'gi://St';
 
 
+// load the file
+// todo
+function loadTheme() {
+    let theme = settings.get_string('Launcher');
+    path = Me.path + '/launcher/' + theme;
+}
+
+
+
+
+
 // Main class
+//todo correct dispose and enable
 export default class ApplyUnityGlass
 {
+
+
 
     // Upon extension activation
     enable()
     {
-        // Grab the CSS to load
-        //let themeContext        = St.ThemeContext.get_for_stage(global.stage);
-        //this.stylesheetFile     =  GLib.build_filenamev([self.metadata.path, 'unity.css']);
+        Me = this;
+        settings = Me.getSettings('org.gnome.shell.extensions.unityglass');
+        loadTheme();
 
-        // Load
-        //themeContext.get_theme().load_stylesheet(this.stylesheetFile);
     }
+
+
+
 
     // Upon extension deactivation
     disable()
     {
-        //let themeContext        = St.ThemeContext.get_for_stage(global.stage);
-        //if (this.stylesheetFile) { themeContext.get_theme().unload_stylesheet(this.stylesheetFile);}
+        Me = null;
+        destroyObjects();
     }
 }
