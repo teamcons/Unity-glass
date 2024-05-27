@@ -6,6 +6,8 @@ from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 let Me;
 
 
+
+
 // Generale a row for each launcher
 function newThemeRow(settings, group) {
     let themesDir = Gio.File.new_for_path(Me.path + '/launcher');
@@ -53,16 +55,17 @@ function newThemeRow(settings, group) {
 
 
 
+
 // Create pref page
 export default class LauncherPref extends ExtensionPreferences {
     fillPreferencesWindow(window) {
-        Me                  = this;
-        const settings      = Me.getSettings('org.gnome.shell.extensions.unityglass');
-        const page          = new Adw.PreferencesPage();
+        Me                      = this;
+        const settings          = Me.getSettings('org.gnome.shell.extensions.unityglass');
+        const page              = new Adw.PreferencesPage();
         window.add(page);
 
         // Themegroup is launcher thees
-        const themeGroup    = new Adw.PreferencesGroup();
+        const themeGroup        = new Adw.PreferencesGroup();
         page.add(themeGroup);
         newThemeRow(settings, themeGroup);
 
