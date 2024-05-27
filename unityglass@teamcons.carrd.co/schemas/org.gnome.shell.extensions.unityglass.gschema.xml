@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.unityglass"
-  path="/org/gnome/shell/extensions/unityglass/">
+  <schema id="org.gnome.shell.extensions.unityglass" path="/org/gnome/shell/extensions/unityglass/">
     <key name="Launcher" type="s">
-      <default>''</default>
+      <default>'None'</default>
     </key>
   </schema>
 </schemalist>
