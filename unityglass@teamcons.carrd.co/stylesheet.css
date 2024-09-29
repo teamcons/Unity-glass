@@ -4,13 +4,15 @@
 /* Big Fat Button, the app launcher thingy */
 
 /* background position is for bfb at the top, not the end like ubuntu */
-.show-apps .show-apps-icon {
-  background-image: url("launcher_bfb.png");
+
+    .show-apps .show-apps-icon {
+  border: none;
+  padding: 0;
+  background-image: url("Modern.svg");
+  background-size: contain;
   background-position: 0px -4px;
-  background-size: cover;
   color: transparent;
-  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
-  }
+  -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14); }
   
   
 .show-apps:hover .show-apps-icon:hover,
